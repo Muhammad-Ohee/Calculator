@@ -51,7 +51,7 @@ def calculator():
         if input(f"Type 'y' to continue with {answer} or type 'n' to start a new calculator: ") == "y":
             num1 = answer
         else:
-            clear()
+            #clear()
             should_continue = False
             calculator()
 
